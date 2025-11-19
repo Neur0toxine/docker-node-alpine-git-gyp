@@ -1,4 +1,4 @@
-FROM timbru31/node-alpine-git:16
+FROM timbru31/node-alpine-git:22
 RUN apk -U upgrade \
   && apk add --no-cache \
     bash \

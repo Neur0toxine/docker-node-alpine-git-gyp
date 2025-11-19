@@ -1,4 +1,4 @@
-FROM node:gallium-alpine3.13
+FROM timbru31/node-alpine-git:22
 RUN apk -U upgrade \
   && apk add --no-cache \
     bash \
